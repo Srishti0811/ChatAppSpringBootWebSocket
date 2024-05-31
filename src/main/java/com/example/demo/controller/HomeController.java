@@ -8,6 +8,6 @@ public class HomeController {
     
     @GetMapping("/")
     public String home() {
-        return "index"; // Assuming "index.html" is your home page located in the "static" directory
+        return "index"; 
     }
 }
